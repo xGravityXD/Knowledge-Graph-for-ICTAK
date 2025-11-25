@@ -1,0 +1,855 @@
+source,target,relation
+Certified Specialist In Data Science & Analytics,Software Engineering Fundamentals For Data,has_module
+Certified Specialist In Data Science & Analytics,Driven Projects Etl Vs Elt: Building Robust Data Pipelines Using Apache Airflow,has_module
+Certified Specialist In Data Science & Analytics,Foundations Of Data Science,has_module
+Certified Specialist In Data Science & Analytics,Machine Learning,has_module
+Certified Specialist In Data Science & Analytics,Ai & Ethics In Ai Data Warehousing Concepts: Olap,has_module
+Certified Specialist In Data Science & Analytics,Oltp & Dimensional Modeling,has_module
+Certified Specialist In Data Science & Analytics,Python Programming Basics For Data Science Data Visualization: Matplotlib,has_module
+Certified Specialist In Data Science & Analytics,Seaborn,has_module
+Certified Specialist In Data Science & Analytics,Tableau & Data Storytelling,has_module
+Certified Specialist In Data Science & Analytics,Inferential Statistics: Hypothesis Testing With P,has_module
+Certified Specialist In Data Science & Analytics,And F Tests Supervised Learning: Regression,has_module
+Certified Specialist In Data Science & Analytics,Classification & Ensemble,has_module
+Certified Specialist In Data Science & Analytics,Linear Algebra For Ml: Matrices,has_module
+Certified Specialist In Data Science & Analytics,Eigenvalues,has_module
+Certified Specialist In Data Science & Analytics,Eigenvectors & Techniques,has_module
+Certified Specialist In Data Science & Analytics,Decomposition Model Evaluation,has_module
+Certified Specialist In Data Science & Analytics,Selection & Hyperparameter Optimization,has_module
+Certified Specialist In Data Science & Analytics,Boosting,has_module
+Certified Specialist In Data Science & Analytics,Stacking &,has_module
+Certified Specialist In Data Science & Analytics,Data Analysis With Python: Numpy And Pandas Essentials Cascading,has_module
+Certified Specialist In Data Science & Analytics,Means,has_module
+Certified Specialist In Data Science & Analytics,Hierarchical &,has_module
+Certified Specialist In Data Science & Analytics,Automation Dbscan,has_module
+Certified Specialist In Data Science & Analytics,Sql For Data Science: Queries,has_module
+Certified Specialist In Data Science & Analytics,Joins,has_module
+Certified Specialist In Data Science & Analytics,Procedures Web Development For Data Science: Flask,has_module
+Certified Specialist In Data Science & Analytics,Fastapi & Streamlit,has_module
+Certified Specialist In Data Science & Analytics,Working With Data Structures: Arrays,has_module
+Certified Specialist In Data Science & Analytics,Series,has_module
+Certified Specialist In Data Science & Analytics,Vectors & Dataframes Deep Learning,has_module
+Certified Specialist In Data Science & Analytics,Large Language Models (Llms) & Generative Ai,has_module
+Certified Specialist In Data Science & Analytics,Feature Engineering: Data Types,has_module
+Certified Specialist In Data Science & Analytics,Extraction,has_module
+Certified Specialist In Data Science & Analytics,And Transformation Prompt Engineering & Gpt,has_module
+Certified Specialist In Data Science & Analytics,Based Language Understanding,has_module
+Certified Specialist In Data Science & Analytics,Techniques Big Data Ecosystem: Hadoop,has_module
+Certified Specialist In Data Science & Analytics,Spark & Distributed Computing Basics,has_module
+Certified Specialist In Data Science & Analytics,Data Pre,has_module
+Certified Specialist In Data Science & Analytics,Processing: Cleaning,has_module
+Certified Specialist In Data Science & Analytics,Encoding,has_module
+Certified Specialist In Data Science & Analytics,Scaling & Correlation Cloud Fundamentals & Devops Practices For Model Deployment,has_module
+Certified Specialist In Data Science & Analytics,Analysis Capstone Project: End,has_module
+Certified Specialist In Data Science & Analytics,To,has_module
+Certified Specialist In Data Science & Analytics,End Development And Deployment,has_module
+Certified Specialist In Data Science & Analytics,Problem Solving And Design Thinking,has_module
+Certified Specialist In Data Science & Analytics,Introduction To Data Science,has_module
+Certified Specialist In Data Science & Analytics,Python Programming And Data Handling,has_module
+Certified Specialist In Data Science & Analytics,Data Visualisation And Eda,has_module
+Certified Specialist In Data Science & Analytics,Supervised And Unsupervised Learning Algorithms,has_module
+Certified Specialist In Data Science & Analytics,Deep Dive Into Cloud Computing,has_module
+Certified Specialist In Data Science & Analytics,Model Deployment Mlops,has_module
+Certified Specialist In Data Science & Analytics,Capstone Project,has_module
+Certified Specialist In Full Stack Development (Mern),Software Engineering Fundamentals Middleware,has_module
+Certified Specialist In Full Stack Development (Mern),An Overview Of Full Stack Development Authentication & Authorisation With Jwt,has_module
+Certified Specialist In Full Stack Development (Mern),Mern Stack Architecture End,has_module
+Certified Specialist In Full Stack Development (Mern),To,has_module
+Certified Specialist In Full Stack Development (Mern),End Web Development Using The Mern,has_module
+Certified Specialist In Full Stack Development (Mern),Structuring And Styling Web Pages With Html5 Stack,has_module
+Certified Specialist In Full Stack Development (Mern),And Css3 Web Application Testing,has_module
+Certified Specialist In Full Stack Development (Mern),Javascript Foundations Cloud Fundamentals And Introduction To Devops,has_module
+Certified Specialist In Full Stack Development (Mern),Version Control With Git And Github Practices,has_module
+Certified Specialist In Full Stack Development (Mern),Advanced Javascript Concepts Capstone Project Development And Deployment,has_module
+Certified Specialist In Full Stack Development (Mern),Essentials Of Javascript Package Management,has_module
+Certified Specialist In Full Stack Development (Mern),Backend Development With Node.Js,has_module
+Certified Specialist In Full Stack Development (Mern),Building Apis With Express.Js,has_module
+Certified Specialist In Full Stack Development (Mern),Building Web Applications With Node.Js And,has_module
+Certified Specialist In Full Stack Development (Mern),Express.Js,has_module
+Certified Specialist In Full Stack Development (Mern),Nosql Database Management Using Mongodb,has_module
+Certified Specialist In Full Stack Development (Mern),Building User Interfaces With React.Js,has_module
+Certified Specialist In Full Stack Development (Mern),State Management Using Redux Toolkit,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,Foundations Of Software Engineering For Machine Techniques,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,Learning Dimensionality Reduction With Pca And Practical,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,Python Programming Essentials And Refresher Applications,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,Artificial Intelligence Fundamentals Of Artificial Neural Networks,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,Introduction To Key Ml Libraries: Numpy,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,Pandas,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,Deep Learning Concepts And Parameter Tuning,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,Matplotlib,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,Seaborn,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,Scikit,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,Learn Image Data Processing And Augmentation Techniques,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,Values,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,Encoding,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,Scaling,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,Outlier Handling Advanced Nlp Using Deep Learning,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,Models Applications,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,Advanced Regression Techniques And Real,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,World Cloud Fundamentals & Devops Practices For Model,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,Applications Deployment,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,Classification Methods And Evaluation Metrics Capstone Project: End,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,To,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,End Development And,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,Ensemble Learning: Bagging,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,Boosting,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,And Stacking Deployment,has_module
+Certified Specialist In Artificial Intelligence & Machine Learning,Model Optimization And Hyperparameter Tuning,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Design Thinking For Innovative Problem Solving Bruteforcing Logins With Hydra,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Battlefield Exploring Web Server Vulnerabilities With Nikto,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Careers In Cyber Security: Roles,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Skills & Roadmaps Wifi Hacking Hands,has_module
+Industry Readiness Program Certified Cyber Security Analyst,On: Cracking Wpa/Wpa2 With,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Building Your Cyber Lab With Virtual Machines Airodump,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Ng,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Mastering The Command Line: Bash Basics & Beyond And Backend,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Introduction To Computer Networks Web Application Security: Common Attacks &,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Cyber Cryptography: Protecting Data In Transit & At Defenses,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Rest Getting Started With Bug Bounty Hunting,has_module
+Industry Readiness Program Certified Cyber Security Analyst,The Cia Triad: Confidentiality,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Integrity,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Availability Hands,has_module
+Industry Readiness Program Certified Cyber Security Analyst,On With Burp Suite For Web App Testing,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Fundamentals Of Network Security Weaknesses,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Port Scanning With Nmap: Discovering Network Man,has_module
+Industry Readiness Program Certified Cyber Security Analyst,In,has_module
+Industry Readiness Program Certified Cyber Security Analyst,The,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Middle Attacks: Eavesdropping Techniques,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Services Capture The Flag (Ctf) Challenges For Practical,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Packet Capturing And Analysis With Wireshark Learning,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Network Reconnaissance Using Netcat Capstone Project On Vapt,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Introduction To Metasploit For Exploitation,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Problem Solving & Design Thinking,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Foundation Module,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Cyber Security Fundamentals,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Network & Wifi Pentesting,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Web Application Pentesting,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Ii,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Advanced Cyber Techniques,has_module
+Industry Readiness Program Certified Cyber Security Analyst,Capstone Project,has_module
+Certified Specialist In Sdet,Design Thinking For Test,has_module
+Certified Specialist In Sdet,Driven Problem Solving Fundamentals Of Databases And Sql,has_module
+Certified Specialist In Sdet,Fundamentals Of Software Engineering For Quality Advanced Sql Queries And Joins,has_module
+Certified Specialist In Sdet,Assurance Database Testing And Automation Strategies,has_module
+Certified Specialist In Sdet,Introduction To Software Development Engineer In Introduction To Test Automation,has_module
+Certified Specialist In Sdet,Test (Sdet) Role Selenium Webdriver Basics And Setup,has_module
+Certified Specialist In Sdet,Core Java Programming And Oops Concepts Test Automation Frameworks (Testng,has_module
+Certified Specialist In Sdet,Data,has_module
+Certified Specialist In Sdet,Driven),has_module
+Certified Specialist In Sdet,File I/O And Exception Handling In Java Bdd With Cucumber And Gherkin Language,has_module
+Certified Specialist In Sdet,Working With Dates,has_module
+Certified Specialist In Sdet,Collections,has_module
+Certified Specialist In Sdet,And Multi,has_module
+Certified Specialist In Sdet,Threading Ci/Cd Concepts And Jenkins Integration,has_module
+Certified Specialist In Sdet,Working With Source Control Systems (Git & Github Api Testing Using Postman,has_module
+Certified Specialist In Sdet,Basics) Defect Management Using Jira And Confluence,has_module
+Certified Specialist In Sdet,Collections Framework And Data Handling Solutions,has_module
+Certified Specialist In Sdet,Code Quality And Clean Code Practices,has_module
+Certified Specialist In Sdet,Unit Testing With Junit,has_module
+Certified Specialist In Sdet,Debugging Techniques For Test Engineers,has_module
+Certified Specialist In Sdet,Code Coverage And Static Code Analysis,has_module
+Certified Specialist In Sdet,Introduction To Software Testing And Stlc,has_module
+Certified Specialist In Sdet,Types And Levels Of Testing,has_module
+Certified Specialist In Sdet,Test Design Techniques And Test Case Writing,has_module
+Certified Specialist In Sdet,Performance Testing Using Jmeter,has_module
+Essential Skill Program Python,Python Is Ranked Number One In The,has_module
+Essential Skill Program Python,Introduction To Python Programming,has_module
+Essential Skill Program Python,Ieee Spectrum Ranking Of,has_module
+Essential Skill Program Python,Python Variables,has_module
+Essential Skill Program Python,Programming Languages In 2020.,has_module
+Essential Skill Program Python,Data Structures,has_module
+Essential Skill Program Python,Opportunities In The Career Of Python,has_module
+Essential Skill Program Python,Control Structures,has_module
+Essential Skill Program Python,Are Increasing Tremendously In The,has_module
+Essential Skill Program Python,Functions In Python,has_module
+Essential Skill Program Python,World.,has_module
+Essential Skill Program Python,Introduction To Web Development,has_module
+Essential Skill Program Python,Whether You Work In Artificial,has_module
+Essential Skill Program Python,Basics Of Database,has_module
+Essential Skill Program Python,Intelligence Or Finance Or Are Pursuing A,has_module
+Essential Skill Program Python,Web Application Development And,has_module
+Essential Skill Program Python,Career In Web Development Or Data,has_module
+Essential Skill Program Python,Deployment,has_module
+Essential Skill Program Python,Science,has_module
+Essential Skill Program Python,Python Is One Of The Most,has_module
+Essential Skill Program Python,Important Skills You Can Learn. Objectives,has_module
+Essential Skill Program Python,Job Roles Advanced In Python With High,has_module
+Essential Skill Program Python,Promising Pay In Large Companies. Familiarise With The Basics Of Python,has_module
+Essential Skill Program Python,Programming,has_module
+Essential Skill Program Python,Key Highlights Familiarise With Database Concepts,has_module
+Essential Skill Program Python,Develop And Deploy Web Applications,has_module
+Essential Skill Program Python,Suitable For Students,has_module
+Essential Skill Program Python,Graduates,has_module
+Essential Skill Program Python,And,has_module
+Essential Skill Program Python,Using Python,has_module
+Essential Skill Program Python,Working Professionals,has_module
+Essential Skill Program Python,Linkedin Learning / Unstop Access For,has_module
+Essential Skill Program Python,Three Months,has_module
+Essential Skill Program Python,Internship Opportunities For Unstop,has_module
+Essential Skill Program Python,Users,has_module
+Essential Skill Program Python,Add,has_module
+Essential Skill Program Python,On Program On Cloud Computing,has_module
+Essential Skill Program Python,Fundamentals,has_module
+Essential Skill Program Python,Employability Skills Training,has_module
+Essential Skill Program Python,Powered By Knowledge Partner Program Delivery Internship Partner,has_module
+Essential Skill Program Python,G1,has_module
+Essential Skill Program Python,Ground Floor,has_module
+Essential Skill Program Python,Thejaswini Building,has_module
+Essential Skill Program Python,Technopark Campus,has_module
+Essential Skill Program Python,Thiruvananthapuram,has_module
+Essential Skill Program Python,+91 75 940 51437 | 471 270 0811,has_module
+Essential Skill Program Python,Info@Ictkerala.Org | Https://Ictkerala.Org,has_module
+Essential Skill Program Python,Noisrev,has_module
+Essential Skill Program Python,Python,has_module
+Essential Skill Program Python,The Following Shall Be Eligible To,has_module
+Essential Skill Program Python,Join The Course,has_module
+Essential Skill Program Python,Engineering Or Science Graduates,has_module
+Essential Skill Program Python,/ Three,has_module
+Essential Skill Program Python,Year Diploma Holders In,has_module
+Essential Skill Program Python,Any Engineering Branches,has_module
+Essential Skill Program Python,Final,has_module
+Essential Skill Program Python,Year/Pre,has_module
+Essential Skill Program Python,Final Year Students Of,has_module
+Essential Skill Program Python,These Courses,has_module
+Essential Skill Program Python,Having A,has_module
+Essential Skill Program Python,Foundation Level Knowledge (Plus,has_module
+Essential Skill Program Python,Two Equivalent) In Mathematics,has_module
+Essential Skill Program Python,And Computer Fundamental,has_module
+Essential Skill Program Python,Skills.,has_module
+Essential Skill Program Python,The Ict Academy Of Kerala (Ictak) Is A Not,has_module
+Essential Skill Program Python,Students Who Have Completed,has_module
+Essential Skill Program Python,For,has_module
+Essential Skill Program Python,Profit,has_module
+Essential Skill Program Python,Public,has_module
+Essential Skill Program Python,Private Partnership (Ppp) Their Graduation But Are Awaiting,has_module
+Essential Skill Program Python,Conceived By The Govt. Of India And Created,has_module
+Essential Skill Program Python,The Final Results Can Also Apply.,has_module
+Essential Skill Program Python,By The Govt. Of Kerala In Partnering With,has_module
+Essential Skill Program Python,Leading Industry Partners Such As Tcs,has_module
+Essential Skill Program Python,*Please Note That The Ict Academy Of Kerala Will,has_module
+Essential Skill Program Python,Have The Right To Cancel The Candidature At Any,has_module
+Essential Skill Program Python,Sowparnika Education Infrastructure,has_module
+Essential Skill Program Python,Ibs,has_module
+Essential Skill Program Python,Point If Found Ineligible.,has_module
+Essential Skill Program Python,Ust,has_module
+Essential Skill Program Python,And Quest Global. The Academy,has_module
+Essential Skill Program Python,Empowers Students And Professionals To,has_module
+Essential Skill Program Python,Reach Their Digital Aspirations Through A,has_module
+Essential Skill Program Python,Comprehensive Range Of Programs,has_module
+Essential Skill Program Python,From,has_module
+Essential Skill Program Python,Fundamental Computer Literacy To Cutting,has_module
+Essential Skill Program Python,Edge Software Engineering. As The Leading,has_module
+Essential Skill Program Python,Provider Of Skilled Workforce In The Industry,has_module
+Essential Skill Program Python,Ictak Has An Impressive Track Record With,has_module
+Essential Skill Program Python,Over 5,has_module
+Essential Skill Program Python,Successful Placements Since Its,has_module
+Essential Skill Program Python,Establishment. In 2023 October The Ict,has_module
+Essential Skill Program Python,Academy Of Kerala Was Recognized As A Total,has_module
+Essential Skill Program Python,Solution Provider By The Dept. Of Electronics,has_module
+Essential Skill Program Python,& It,has_module
+Essential Skill Program Python,Govt. Of Kerala.,has_module
+Essential Skill Program Business Intelligence With Power Bi,Career Opportunities In Business,has_module
+Essential Skill Program Business Intelligence With Power Bi,Introduction To Power Bi & Power Bi,has_module
+Essential Skill Program Business Intelligence With Power Bi,Intelligence (Bi) Are On The Rise. Data,has_module
+Essential Skill Program Business Intelligence With Power Bi,Desktop,has_module
+Essential Skill Program Business Intelligence With Power Bi,Professionals Fill Important Roles Within,has_module
+Essential Skill Program Business Intelligence With Power Bi,Working With Query Editor,has_module
+Essential Skill Program Business Intelligence With Power Bi,An Organisation,has_module
+Essential Skill Program Business Intelligence With Power Bi,Such As Business,has_module
+Essential Skill Program Business Intelligence With Power Bi,Understanding The Data Model: Data &,has_module
+Essential Skill Program Business Intelligence With Power Bi,Analysts,has_module
+Essential Skill Program Business Intelligence With Power Bi,Project Managers,has_module
+Essential Skill Program Business Intelligence With Power Bi,And,has_module
+Essential Skill Program Business Intelligence With Power Bi,Relationships,has_module
+Essential Skill Program Business Intelligence With Power Bi,Technical Architects,has_module
+Essential Skill Program Business Intelligence With Power Bi,Which Necessitate,has_module
+Essential Skill Program Business Intelligence With Power Bi,Creating Visuals In The Report View,has_module
+Essential Skill Program Business Intelligence With Power Bi,Knowledge Of Different Subjects,has_module
+Essential Skill Program Business Intelligence With Power Bi,Taking The Project To The Cloud With,has_module
+Essential Skill Program Business Intelligence With Power Bi,Bi Can Help Companies Make Better,has_module
+Essential Skill Program Business Intelligence With Power Bi,Power Bi Pro Service,has_module
+Essential Skill Program Business Intelligence With Power Bi,Decisions By Showing Present And,has_module
+Essential Skill Program Business Intelligence With Power Bi,Working With Other Data Sources And,has_module
+Essential Skill Program Business Intelligence With Power Bi,Historical Data Within Their Business,has_module
+Essential Skill Program Business Intelligence With Power Bi,Creating Custom Visuals (Power Bi For,has_module
+Essential Skill Program Business Intelligence With Power Bi,Context. Analysts Can Leverage Bi To,has_module
+Essential Skill Program Business Intelligence With Power Bi,Developers),has_module
+Essential Skill Program Business Intelligence With Power Bi,Provide Performance And Competitor,has_module
+Essential Skill Program Business Intelligence With Power Bi,Benchmarks To Make The Organisation,has_module
+Essential Skill Program Business Intelligence With Power Bi,Objectives,has_module
+Essential Skill Program Business Intelligence With Power Bi,Run Smoother And More Efficiently,has_module
+Essential Skill Program Business Intelligence With Power Bi,Bi Professionals Working As Work With Various Data Sources,has_module
+Essential Skill Program Business Intelligence With Power Bi,Consultants Generally Command The Including Text Files,has_module
+Essential Skill Program Business Intelligence With Power Bi,Excel Files,has_module
+Essential Skill Program Business Intelligence With Power Bi,Highest Salaries,has_module
+Essential Skill Program Business Intelligence With Power Bi,Particularly In Vertical Databases,has_module
+Essential Skill Program Business Intelligence With Power Bi,Markets With The Highest Growth,has_module
+Essential Skill Program Business Intelligence With Power Bi,Such Create Basic And Advanced Plotting,has_module
+Essential Skill Program Business Intelligence With Power Bi,As Pharmaceuticals And Software Techniques With Power Bi,has_module
+Essential Skill Program Business Intelligence With Power Bi,Demonstrate The Art Of Data Storytelling,has_module
+Essential Skill Program Business Intelligence With Power Bi,Key Highlights For Business Intelligence,has_module
+Essential Skill Program Business Intelligence With Power Bi,Suitable For Students,has_module
+Essential Skill Program Business Intelligence With Power Bi,Graduates,has_module
+Essential Skill Program Business Intelligence With Power Bi,Working Professionals,has_module
+Essential Skill Program Business Intelligence With Power Bi,Linkedin Learning / Unstop Access For,has_module
+Essential Skill Program Business Intelligence With Power Bi,Three Months,has_module
+Essential Skill Program Business Intelligence With Power Bi,Internship Opportunities For Unstop Users,has_module
+Essential Skill Program Business Intelligence With Power Bi,Add,has_module
+Essential Skill Program Business Intelligence With Power Bi,On Program On Cloud Computing,has_module
+Essential Skill Program Business Intelligence With Power Bi,Fundamentals,has_module
+Essential Skill Program Business Intelligence With Power Bi,Employability Skills Training,has_module
+Essential Skill Program Business Intelligence With Power Bi,Powered By Knowledge Partner Program Delivery Internship Partner,has_module
+Essential Skill Program Business Intelligence With Power Bi,G1,has_module
+Essential Skill Program Business Intelligence With Power Bi,Ground Floor,has_module
+Essential Skill Program Business Intelligence With Power Bi,Thejaswini Building,has_module
+Essential Skill Program Business Intelligence With Power Bi,Technopark Campus,has_module
+Essential Skill Program Business Intelligence With Power Bi,Thiruvananthapuram,has_module
+Essential Skill Program Business Intelligence With Power Bi,+91 75 940 51437 | 471 270 0811,has_module
+Essential Skill Program Business Intelligence With Power Bi,Info@Ictkerala.Org | Https://Ictkerala.Org,has_module
+Essential Skill Program Business Intelligence With Power Bi,Noisrev,has_module
+Essential Skill Program Business Intelligence With Power Bi,Business Intelligence,has_module
+Essential Skill Program Business Intelligence With Power Bi,With Power Bi,has_module
+Essential Skill Program Business Intelligence With Power Bi,The Following Shall Be Eligible To,has_module
+Essential Skill Program Business Intelligence With Power Bi,Join The Course,has_module
+Essential Skill Program Business Intelligence With Power Bi,Engineering Or Science Graduates,has_module
+Essential Skill Program Business Intelligence With Power Bi,/ Three,has_module
+Essential Skill Program Business Intelligence With Power Bi,Year Diploma Holders In,has_module
+Essential Skill Program Business Intelligence With Power Bi,Any Engineering Branches,has_module
+Essential Skill Program Business Intelligence With Power Bi,Final,has_module
+Essential Skill Program Business Intelligence With Power Bi,Year/Pre,has_module
+Essential Skill Program Business Intelligence With Power Bi,Final Year Students Of,has_module
+Essential Skill Program Business Intelligence With Power Bi,These Courses,has_module
+Essential Skill Program Business Intelligence With Power Bi,Having A,has_module
+Essential Skill Program Business Intelligence With Power Bi,Foundation Level Knowledge (Plus,has_module
+Essential Skill Program Business Intelligence With Power Bi,Two Equivalent) In Mathematics,has_module
+Essential Skill Program Business Intelligence With Power Bi,And Computer Fundamental,has_module
+Essential Skill Program Business Intelligence With Power Bi,Skills.,has_module
+Essential Skill Program Business Intelligence With Power Bi,The Ict Academy Of Kerala (Ictak) Is A Not,has_module
+Essential Skill Program Business Intelligence With Power Bi,Students Who Have Completed,has_module
+Essential Skill Program Business Intelligence With Power Bi,For,has_module
+Essential Skill Program Business Intelligence With Power Bi,Profit,has_module
+Essential Skill Program Business Intelligence With Power Bi,Public,has_module
+Essential Skill Program Business Intelligence With Power Bi,Private Partnership (Ppp) Their Graduation But Are Awaiting,has_module
+Essential Skill Program Business Intelligence With Power Bi,Conceived By The Govt. Of India And Created,has_module
+Essential Skill Program Business Intelligence With Power Bi,The Final Results Can Also Apply.,has_module
+Essential Skill Program Business Intelligence With Power Bi,By The Govt. Of Kerala In Partnering With,has_module
+Essential Skill Program Business Intelligence With Power Bi,Leading Industry Partners Such As Tcs,has_module
+Essential Skill Program Business Intelligence With Power Bi,*Please Note That The Ict Academy Of Kerala Will,has_module
+Essential Skill Program Business Intelligence With Power Bi,Have The Right To Cancel The Candidature At Any,has_module
+Essential Skill Program Business Intelligence With Power Bi,Sowparnika Education Infrastructure,has_module
+Essential Skill Program Business Intelligence With Power Bi,Ibs,has_module
+Essential Skill Program Business Intelligence With Power Bi,Point If Found Ineligible.,has_module
+Essential Skill Program Business Intelligence With Power Bi,Ust,has_module
+Essential Skill Program Business Intelligence With Power Bi,And Quest Global. The Academy,has_module
+Essential Skill Program Business Intelligence With Power Bi,Empowers Students And Professionals To,has_module
+Essential Skill Program Business Intelligence With Power Bi,Reach Their Digital Aspirations Through A,has_module
+Essential Skill Program Business Intelligence With Power Bi,Comprehensive Range Of Programs,has_module
+Essential Skill Program Business Intelligence With Power Bi,From,has_module
+Essential Skill Program Business Intelligence With Power Bi,Fundamental Computer Literacy To Cutting,has_module
+Essential Skill Program Business Intelligence With Power Bi,Edge Software Engineering. As The Leading,has_module
+Essential Skill Program Business Intelligence With Power Bi,Provider Of Skilled Workforce In The Industry,has_module
+Essential Skill Program Business Intelligence With Power Bi,Ictak Has An Impressive Track Record With,has_module
+Essential Skill Program Business Intelligence With Power Bi,Over 5,has_module
+Essential Skill Program Business Intelligence With Power Bi,Successful Placements Since Its,has_module
+Essential Skill Program Business Intelligence With Power Bi,Establishment. In 2023 October The Ict,has_module
+Essential Skill Program Business Intelligence With Power Bi,Academy Of Kerala Was Recognized As A Total,has_module
+Essential Skill Program Business Intelligence With Power Bi,Solution Provider By The Dept. Of Electronics,has_module
+Essential Skill Program Business Intelligence With Power Bi,& It,has_module
+Essential Skill Program Business Intelligence With Power Bi,Govt. Of Kerala.,has_module
+Industry Readiness Program Certified Specialist In Full Stack Development,Problem Solving And Design Thinking,has_module
+Industry Readiness Program Certified Specialist In Full Stack Development,Introduction To Html,has_module
+Industry Readiness Program Certified Specialist In Full Stack Development,Css And Bootstrap,has_module
+Industry Readiness Program Certified Specialist In Full Stack Development,Javascript,has_module
+Industry Readiness Program Certified Specialist In Full Stack Development,Nodejs And Expressjs,has_module
+Industry Readiness Program Certified Specialist In Full Stack Development,Mongodb Basics,has_module
+Industry Readiness Program Certified Specialist In Full Stack Development,Reactjs,has_module
+Industry Readiness Program Certified Specialist In Full Stack Development,Cloud Basics And Deployment,has_module
+Industry Readiness Program Certified Specialist In Full Stack Development,Capstone Project,has_module
+Certified Specialist In Software Testing,Upon Completion Of The Program,has_module
+Certified Specialist In Software Testing,Java Foundation For Software Testers,has_module
+Certified Specialist In Software Testing,Participants Will Gain: Basics Of Software Development Life,has_module
+Certified Specialist In Software Testing,Foundational Knowledge: A Solid Cycle (Sdlc),has_module
+Certified Specialist In Software Testing,Understanding Of The Software Software Testing Life Cycle (Stlc),has_module
+Certified Specialist In Software Testing,Development Life Cycle (Sdlc) Test Roles And Responsibilities,has_module
+Certified Specialist In Software Testing,And Software Testing Life Cycle Test Design And Management,has_module
+Certified Specialist In Software Testing,(Stlc),has_module
+Certified Specialist In Software Testing,Including The Roles And Functional & Non,has_module
+Certified Specialist In Software Testing,Functional Testing,has_module
+Certified Specialist In Software Testing,Responsibilities Involved In Testing. Automation Testing,has_module
+Certified Specialist In Software Testing,Test Case Management: Skills To Framework,has_module
+Certified Specialist In Software Testing,Design,has_module
+Certified Specialist In Software Testing,Write,has_module
+Certified Specialist In Software Testing,And Manage Introduction To Selenium,has_module
+Certified Specialist In Software Testing,Effective Test Cases,has_module
+Certified Specialist In Software Testing,Covering Both Automation Using Selenium Webdriver,has_module
+Certified Specialist In Software Testing,Functional And Non,has_module
+Certified Specialist In Software Testing,Functional Project Work,has_module
+Certified Specialist In Software Testing,Aspects Of Software Testing.,has_module
+Certified Specialist In Software Testing,Automation Expertise: Enhanced,has_module
+Certified Specialist In Software Testing,Proficiency In Using Selenium,has_module
+Certified Specialist In Software Testing,Webdriver For Automation Testing,has_module
+Certified Specialist In Software Testing,Along With A Foundational Grasp Of,has_module
+Certified Specialist In Software Testing,Automation Testing Principles.,has_module
+Certified Specialist In Software Testing,Practical Application: Hands,has_module
+Certified Specialist In Software Testing,On,has_module
+Certified Specialist In Software Testing,Experience In Applying Testing,has_module
+Certified Specialist In Software Testing,Techniques And Automation Tools,has_module
+Certified Specialist In Software Testing,To Real,has_module
+Certified Specialist In Software Testing,World Software Products.,has_module
+Certified Specialist In Software Testing,G1,has_module
+Certified Specialist In Software Testing,Ground Floor,has_module
+Certified Specialist In Software Testing,Thejaswini Building,has_module
+Certified Specialist In Software Testing,Technopark Campus,has_module
+Certified Specialist In Software Testing,Thiruvananthapuram,has_module
+Certified Specialist In Software Testing,+91 75 940 51437 | 471 270 0811,has_module
+Certified Specialist In Software Testing,Info@Ictkerala.Org | Https://Ictkerala.Org,has_module
+Certified Specialist In Software Testing,Noisrev,has_module
+Certified Specialist In Software Testing,Ce Rtified Specialist In,has_module
+Certified Specialist In Software Testing,Software Testing,has_module
+Certified Specialist In Software Testing,Engineering Or Science Graduates,has_module
+Certified Specialist In Software Testing,/ Three,has_module
+Certified Specialist In Software Testing,Year Diploma In Any,has_module
+Certified Specialist In Software Testing,Engineering Branches,has_module
+Certified Specialist In Software Testing,Having A,has_module
+Certified Specialist In Software Testing,Foundation Level Knowledge (Plus,has_module
+Certified Specialist In Software Testing,Two Equivalent) In Mathematics,has_module
+Certified Specialist In Software Testing,And Computer Fundamental,has_module
+Certified Specialist In Software Testing,Skills.,has_module
+Certified Specialist In Software Testing,Students Who Have Completed,has_module
+Certified Specialist In Software Testing,Their Graduation But Are Awaiting,has_module
+Certified Specialist In Software Testing,The Final Results Can Also Apply.,has_module
+Certified Specialist In Software Testing,*Please Note That The Ict Academy Of Kerala Will Have,has_module
+Certified Specialist In Software Testing,The Ict Academy Of Kerala (Ictak) Is A Not,has_module
+Certified Specialist In Software Testing,The Right To Cancel The Candidature At Any Point If Found,has_module
+Certified Specialist In Software Testing,For,has_module
+Certified Specialist In Software Testing,Profit Organization Formed By The Ineligible.,has_module
+Certified Specialist In Software Testing,Government Of India,has_module
+Certified Specialist In Software Testing,The Government Of,has_module
+Certified Specialist In Software Testing,Kerala,has_module
+Certified Specialist In Software Testing,And Leading It Industry Players Like,has_module
+Certified Specialist In Software Testing,Tcs,has_module
+Certified Specialist In Software Testing,Ust,has_module
+Certified Specialist In Software Testing,Ibs,has_module
+Certified Specialist In Software Testing,And Quest Global. Ictak Offers,has_module
+Certified Specialist In Software Testing,Various Ict And Life Skills Programs Such As,has_module
+Certified Specialist In Software Testing,Microsoft,has_module
+Certified Specialist In Software Testing,Java,has_module
+Certified Specialist In Software Testing,Devops,has_module
+Certified Specialist In Software Testing,Cyber Security,has_module
+Certified Specialist In Software Testing,Artificial Intelligence/Machine Learning,has_module
+Certified Specialist In Software Testing,And,has_module
+Certified Specialist In Software Testing,So On. Recognized By The Government Of,has_module
+Certified Specialist In Software Testing,Kerala'S Department Of Electronics & It,has_module
+Certified Specialist In Software Testing,Ictak Provides Comprehensive Training With,has_module
+Certified Specialist In Software Testing,Capstone Projects And Internships To,has_module
+Certified Specialist In Software Testing,Prepare The Next Generation Of Ict,has_module
+Certified Specialist In Software Testing,Professionals. In The 2023,has_module
+Certified Specialist In Software Testing,Period,has_module
+Certified Specialist In Software Testing,It,has_module
+Certified Specialist In Software Testing,Expanded Its Partner Network To 282,has_module
+Certified Specialist In Software Testing,Academic Institutions,has_module
+Certified Specialist In Software Testing,Impacting Over 12,has_module
+Certified Specialist In Software Testing,000,has_module
+Certified Specialist In Software Testing,Students And 600 Faculties. With 182,has_module
+Certified Specialist In Software Testing,Corporate Partners,has_module
+Certified Specialist In Software Testing,Ictak Organizes Events,has_module
+Certified Specialist In Software Testing,Hackathons,has_module
+Certified Specialist In Software Testing,And Conferences To Develop New,has_module
+Certified Specialist In Software Testing,Ict Courses And Promote Digital Literacy.,has_module
+Certified Specialist In Software Testing,Through Partnerships With The Government,has_module
+Certified Specialist In Software Testing,It Focuses On Capacity Building And Project,has_module
+Certified Specialist In Software Testing,Execution. Over The Last Decade,has_module
+Certified Specialist In Software Testing,Ictak Has,has_module
+Certified Specialist In Software Testing,Trained 1,has_module
+Certified Specialist In Software Testing,20,has_module
+Certified Specialist In Software Testing,Participants And Received,has_module
+Certified Specialist In Software Testing,National Recognition For Its Innovative,has_module
+Certified Specialist In Software Testing,Training Practices From The Indian Society For,has_module
+Certified Specialist In Software Testing,Training & Development (Istd).,has_module
+Digital Marketing With Ai,Acquire A Solid Grasp Of Fundamental Introduction To Digital Marketing,has_module
+Digital Marketing With Ai,Digital Marketing Principles And Content Marketing,has_module
+Digital Marketing With Ai,Techniques. Social Media Marketing,has_module
+Digital Marketing With Ai,Master The Execution Of Diverse Digital Email Marketing,has_module
+Digital Marketing With Ai,Marketing Methods,has_module
+Digital Marketing With Ai,Encompassing Seo,has_module
+Digital Marketing With Ai,Search Engine Optimization,has_module
+Digital Marketing With Ai,Social Media Marketing,has_module
+Digital Marketing With Ai,Email Marketing,has_module
+Digital Marketing With Ai,Branding And Marketing,has_module
+Digital Marketing With Ai,And Content Marketing. Optimization,has_module
+Digital Marketing With Ai,Obtain Practical Proficiency In Scrutinizing Introduction To Ai And Chatgpt,has_module
+Digital Marketing With Ai,Digital Marketing Data And Refining Ai And Chatgpt For Content,has_module
+Digital Marketing With Ai,Campaigns For Enhanced Results. Marketing,has_module
+Digital Marketing With Ai,Hone The Ability To Craft And Implement Ai And Chatgpt For Social Media,has_module
+Digital Marketing With Ai,Impactful Digital Marketing Strategies Marketing,has_module
+Digital Marketing With Ai,Across A Range Of Online Platforms And Ai And Chatgpt For Email Marketing,has_module
+Digital Marketing With Ai,Channels. Ai And Chatgpt For Seo,has_module
+Digital Marketing With Ai,Ai And Chatgpt For Branding,has_module
+Digital Marketing With Ai,Any Graduate Or Three,has_module
+Digital Marketing With Ai,Year,has_module
+Digital Marketing With Ai,Diploma Holder,has_module
+Digital Marketing With Ai,Final Year Students Or Those,has_module
+Digital Marketing With Ai,Awaiting Results,has_module
+Digital Marketing With Ai,Proficiency In Basic Computer,has_module
+Digital Marketing With Ai,Skills And A Presence On Social,has_module
+Digital Marketing With Ai,Media,has_module
+Digital Marketing With Ai,Genuine Interest In Digital,has_module
+Digital Marketing With Ai,Marketing And The Motivation To,has_module
+Digital Marketing With Ai,Learn And Apply New Skills,has_module
+Digital Marketing With Ai,The Ict Academy Of Kerala (Ictak) Is A Not,has_module
+Digital Marketing With Ai,*Please Note That The Ict Academy Of Kerala Will Have The,has_module
+Digital Marketing With Ai,Right To Cancel The Candidature At Any Point If Found,has_module
+Digital Marketing With Ai,For,has_module
+Digital Marketing With Ai,Profit Organization Formed By The,has_module
+Digital Marketing With Ai,Ineligible.,has_module
+Digital Marketing With Ai,Government Of India,has_module
+Digital Marketing With Ai,The Government Of,has_module
+Digital Marketing With Ai,Kerala,has_module
+Digital Marketing With Ai,And Leading It Industry Players Like,has_module
+Digital Marketing With Ai,Tcs,has_module
+Digital Marketing With Ai,Ust,has_module
+Digital Marketing With Ai,Ibs,has_module
+Digital Marketing With Ai,And Quest Global. Ictak Offers,has_module
+Digital Marketing With Ai,Various Ict And Life Skills Programs Such As,has_module
+Digital Marketing With Ai,Microsoft,has_module
+Digital Marketing With Ai,Java,has_module
+Digital Marketing With Ai,Devops,has_module
+Digital Marketing With Ai,Cyber Security,has_module
+Digital Marketing With Ai,Artificial Intelligence/Machine Learning,has_module
+Digital Marketing With Ai,And,has_module
+Digital Marketing With Ai,So On. Recognized By The Government Of,has_module
+Digital Marketing With Ai,Kerala'S Department Of Electronics & It,has_module
+Digital Marketing With Ai,Ictak Provides Comprehensive Training With,has_module
+Digital Marketing With Ai,Capstone Projects And Internships To,has_module
+Digital Marketing With Ai,Prepare The Next Generation Of Ict,has_module
+Digital Marketing With Ai,Professionals. In The 2023,has_module
+Digital Marketing With Ai,Period,has_module
+Digital Marketing With Ai,It,has_module
+Digital Marketing With Ai,Expanded Its Partner Network To 282,has_module
+Digital Marketing With Ai,Academic Institutions,has_module
+Digital Marketing With Ai,Impacting Over 12,has_module
+Digital Marketing With Ai,000,has_module
+Digital Marketing With Ai,Students And 600 Faculties. With 182,has_module
+Digital Marketing With Ai,Corporate Partners,has_module
+Digital Marketing With Ai,Ictak Organizes Events,has_module
+Digital Marketing With Ai,Hackathons,has_module
+Digital Marketing With Ai,And Conferences To Develop,has_module
+Digital Marketing With Ai,New Ict Courses And Promote Digital Literacy.,has_module
+Digital Marketing With Ai,Through Partnerships With The Government,has_module
+Digital Marketing With Ai,It Focuses On Capacity Building And Project,has_module
+Digital Marketing With Ai,Execution. Over The Last Decade,has_module
+Digital Marketing With Ai,Ictak Has,has_module
+Digital Marketing With Ai,Trained 1,has_module
+Digital Marketing With Ai,20,has_module
+Digital Marketing With Ai,Participants And Received,has_module
+Digital Marketing With Ai,National Recognition For Its Innovative,has_module
+Digital Marketing With Ai,Training Practices From The Indian Society For,has_module
+Digital Marketing With Ai,Training & Development (Istd).,has_module
+Digital Marketing With Ai,G1,has_module
+Digital Marketing With Ai,Ground Floor,has_module
+Digital Marketing With Ai,Thejaswini Building,has_module
+Digital Marketing With Ai,Technopark Campus,has_module
+Digital Marketing With Ai,Thiruvananthapuram,has_module
+Digital Marketing With Ai,+91 75 940 51437 | 471 270 0811,has_module
+Digital Marketing With Ai,Info@Ictkerala.Org | Https://Ictkerala.Org,has_module
+Digital Marketing With Ai,Noisrev,has_module
+Digital Marketing With Ai,Mastering Digital,has_module
+Digital Marketing With Ai,Marketing With Ai,has_module
+Devops With Azure,Introduction To Devops,has_module
+Devops With Azure,Version Control With Azure Repos,has_module
+Devops With Azure,Continuous Integration With Azure Pipelines,has_module
+Devops With Azure,Infrastructure As Code With Azure Resource,has_module
+Devops With Azure,Manager,has_module
+Devops With Azure,Case Study,has_module
+Devops With Azure,Containerization With Docker And Kubernetes,has_module
+Devops With Azure,Monitoring And Logging With Azure Monitor,has_module
+Devops With Azure,Configuration Management With Azure,has_module
+Devops With Azure,Automation,has_module
+Devops With Azure,Security And Compliance With Azure Security,has_module
+Devops With Azure,Center,has_module
+Devops With Azure,Performance Testing With Azure Devtest,has_module
+Devops With Azure,Designathon Orientation,has_module
+Devops With Azure,G1,has_module
+Devops With Azure,Ground Floor,has_module
+Devops With Azure,Thejaswini Building,has_module
+Devops With Azure,Technopark Campus,has_module
+Devops With Azure,Thiruvananthapuram,has_module
+Devops With Azure,+91 75 940 51437 | 471 270 0811,has_module
+Devops With Azure,Info@Ictkerala.Org | Https://Ictkerala.Org,has_module
+Devops With Azure,Noisrev,has_module
+Devops With Azure,Devops,has_module
+Devops With Azure,With Azure,has_module
+Devops With Azure,Engineering Or Science,has_module
+Devops With Azure,Graduates/ Three,has_module
+Devops With Azure,Year Diploma,has_module
+Devops With Azure,Holders In Any Engineering,has_module
+Devops With Azure,Branches,has_module
+Devops With Azure,Final Year/Pre,has_module
+Devops With Azure,Final Year Students,has_module
+Devops With Azure,Of The Above Courses,has_module
+Devops With Azure,Foundation Level Knowledge (Plus,has_module
+Devops With Azure,Two Equivalent) In Mathematics,has_module
+Devops With Azure,And Computer Fundamental Skills,has_module
+Devops With Azure,Students Who Have Completed,has_module
+Devops With Azure,The Ict Academy Of Kerala (Ictak) Is A Not,has_module
+Devops With Azure,Graduation But Are Awaiting Final,has_module
+Devops With Azure,For,has_module
+Devops With Azure,Profit Organization Formed By The Results,has_module
+Devops With Azure,Government Of India,has_module
+Devops With Azure,The Government Of *Please Note That The Ict Academy Of Kerala Will Have The,has_module
+Devops With Azure,Kerala,has_module
+Devops With Azure,Tcs,has_module
+Devops With Azure,Ust,has_module
+Devops With Azure,Ibs,has_module
+Devops With Azure,And Quest Global. Ictak Offers Ineligible.,has_module
+Devops With Azure,Various Ict And Life Skills Programs Such As,has_module
+Devops With Azure,Microsoft,has_module
+Devops With Azure,Java,has_module
+Devops With Azure,Cyber Security,has_module
+Devops With Azure,Artificial Intelligence/Machine Learning,has_module
+Devops With Azure,And,has_module
+Devops With Azure,So On. Recognized By The Government Of,has_module
+Devops With Azure,Kerala'S Department Of Electronics & It,has_module
+Devops With Azure,Ictak Provides Comprehensive Training With,has_module
+Devops With Azure,Capstone Projects And Internships To,has_module
+Devops With Azure,Prepare The Next Generation Of Ict,has_module
+Devops With Azure,Professionals. In The 2023,has_module
+Devops With Azure,Period,has_module
+Devops With Azure,It,has_module
+Devops With Azure,Expanded Its Partner Network To 282,has_module
+Devops With Azure,Academic Institutions,has_module
+Devops With Azure,Impacting Over 12,has_module
+Devops With Azure,000,has_module
+Devops With Azure,Students And 600 Faculties. With 182,has_module
+Devops With Azure,Corporate Partners,has_module
+Devops With Azure,Ictak Organizes Events,has_module
+Devops With Azure,Hackathons,has_module
+Devops With Azure,And Conferences To Develop,has_module
+Devops With Azure,New Ict Courses And Promote Digital Literacy.,has_module
+Devops With Azure,Through Partnerships With The Government,has_module
+Devops With Azure,It Focuses On Capacity Building And Project,has_module
+Devops With Azure,Execution. Over The Last Decade,has_module
+Devops With Azure,Ictak Has,has_module
+Devops With Azure,Trained 1,has_module
+Devops With Azure,20,has_module
+Devops With Azure,Participants And Received,has_module
+Devops With Azure,National Recognition For Its Innovative,has_module
+Devops With Azure,Training Practices From The Indian Society For,has_module
+Devops With Azure,Training & Development (Istd).,has_module
+Adarshin B Suresh,Certified Specialist In Data Science & Analytics,teaches
+Adarshin B Suresh,Essential Skill Program Python Programming,teaches
+Adarshin B Suresh,Certified Specialist In Artificial Intelligence & Machine Learning,teaches
+Adarshin B Suresh,Data Science,skilled_in
+Adarshin B Suresh,Python,skilled_in
+Adhin V S,Certified Specialist In Data Science & Analytics,teaches
+Adhin V S,Industry Readiness Program Certified Cyber Security Analyst,teaches
+Adhin V S,Certified Specialist In Sdet,teaches
+Adhin V S,Essential Skill Program Python Programming,teaches
+Adhin V S,Certified Specialist In Full Stack Development (Mern),teaches
+Adhin V S,Certified Specialist In Artificial Intelligence & Machine Learning,teaches
+Adhin V S,Essential Skill Program Business Intelligence With Power Bi,teaches
+Adhin V S,Certified Specialist In Software Testing,teaches
+Adhin V S,Azure,skilled_in
+Adhin V S,Cyber Security,skilled_in
+Adhin V S,Deep Learning,skilled_in
+Adhin V S,Git,skilled_in
+Alan Jolly,Industry Readiness Program Certified Cyber Security Analyst,teaches
+Alan Jolly,Certified Specialist In Software Testing,teaches
+Alan Jolly,Cyber Security,skilled_in
+Anitha B,Certified Specialist In Data Science & Analytics,teaches
+Anitha B,Certified Specialist In Sdet Modes About The Program The Software Development Engineer Online Offline In Test (Sdet),teaches
+Anitha B,Essential Skill Program Python Program,teaches
+Anitha B,Certified Specialist In Full Stack Development (Mern),teaches
+Anitha B,Certified Specialist In Artificial Intelligence & Machine Learning,teaches
+Anitha B,Certified Specialist In Software Testing,teaches
+Anitha B,Azure,skilled_in
+Anitha B,Data Science,skilled_in
+Anitha B,Machine Learning,skilled_in
+Anitha B,Python,skilled_in
+Anitha B,Sql,skilled_in
+Deepasree Varma,Certified Specialist In Data Science & Analytics,teaches
+Deepasree Varma,Certified Specialist In Artificial Intelligence & Machine,teaches
+Deepasree Varma,Certified Specialist In Software Testing,teaches
+Deepasree Varma,Data Science,skilled_in
+Deepasree Varma,Deep Learning,skilled_in
+Deepasree Varma,Machine Learning,skilled_in
+Gopu Darsan,Certified Specialist In Data Science & Analytics,teaches
+Gopu Darsan,Industry Readiness Program Certified Cyber Security Analyst,teaches
+Gopu Darsan,Certified Specialist In Sdet,teaches
+Gopu Darsan,Essential Skill Program Python Programming,teaches
+Gopu Darsan,Certified Specialist In Full Stack Development (Mern),teaches
+Gopu Darsan,Certified Specialist In Artificial Intelligence & Machine Learning,teaches
+Gopu Darsan,Essential Skill Program Business Intelligence With Power Bi,teaches
+Gopu Darsan,Certified Specialist In Software Testing,teaches
+Gopu Darsan,Industry Readiness Program Certified Specialist In Full Stack Development (Mern),teaches
+Gopu Darsan,Aws,skilled_in
+Gopu Darsan,Cloud,skilled_in
+Gopu Darsan,Css,skilled_in
+Gopu Darsan,Docker,skilled_in
+Gopu Darsan,Git,skilled_in
+Gopu Darsan,Html,skilled_in
+Gopu Darsan,Java,skilled_in
+Gopu Darsan,Linux,skilled_in
+Gopu Darsan,Python,skilled_in
+Gopu Darsan,Selenium,skilled_in
+Hareesh Rajendran,Certified Specialist In Data Science & Analytics,teaches
+Hareesh Rajendran,Industry Readiness Program Certified Cyber Security Analyst,teaches
+Hareesh Rajendran,Certified Specialist In Sdet,teaches
+Hareesh Rajendran,Essential Skill Program Python Programming,teaches
+Hareesh Rajendran,Certified Specialist In Full Stack Development (Mern),teaches
+Hareesh Rajendran,Certified Specialist In Artificial Intelligence & Machine Learning,teaches
+Hareesh Rajendran,Certified Specialist In Software Testing,teaches
+Hareesh Rajendran,Industry Readiness Program Certified Specialist In Full Stack Development (Mern),teaches
+Hareesh Rajendran,Css,skilled_in
+Hareesh Rajendran,Cyber Security,skilled_in
+Hareesh Rajendran,Html,skilled_in
+Hareesh Rajendran,Java,skilled_in
+Hareesh Rajendran,Javascript,skilled_in
+Hareesh Rajendran,Linux,skilled_in
+Hareesh Rajendran,Python,skilled_in
+Hareesh Rajendran,Sql,skilled_in
+Harini A,Certified Specialist In Data Science & Analytics,teaches
+Harini A,Essential Skill Program Python Programming,teaches
+Harini A,Certified Specialist In Full Stack Development (Mern),teaches
+Harini A,Certified Specialist In Artificial Intelligence & Machine Learning,teaches
+Harini A,Industry Readiness Program Certified Specialist In Full Stack Development (Mern),teaches
+Harini A,Express,skilled_in
+Harini A,Mongodb,skilled_in
+Harini A,Node,skilled_in
+Harini A,Python,skilled_in
+Harini A,React,skilled_in
+Jishnu Unni C,Certified Specialist In Data Science & Analytics,teaches
+Jishnu Unni C,Certified Specialist In Artificial Intelligence & Machine Learning,teaches
+Jishnu Unni C,Data Science,skilled_in
+Jishnu Unni C,Nlp,skilled_in
+John J Padamadan,Certified Specialist In Data Science & Analytics,teaches
+John J Padamadan,Essential Skill Program Python Programming,teaches
+John J Padamadan,Certified Specialist In Artificial Intelligence & Machine Learning,teaches
+John J Padamadan,Certified Specialist In Software Testing,teaches
+John J Padamadan,Data Science,skilled_in
+John J Padamadan,Deep Learning,skilled_in
+John J Padamadan,Machine Learning,skilled_in
+John J Padamadan,Python,skilled_in
+Manoj Cm,Certified Specialist In Data Science & Analytics,teaches
+Manoj Cm,Industry Readiness Program Certified Cyber Security Analyst,teaches
+Manoj Cm,Essential Skill Program Python Programming,teaches
+Manoj Cm,Certified Specialist In Artificial Intelligence & Machine Learning,teaches
+Manoj Cm,Certified Specialist In Software Testing,teaches
+Manoj Cm,Burp Suite,skilled_in
+Manoj Cm,Cyber Security,skilled_in
+Manoj Cm,Penetration Testing,skilled_in
+Manoj Cm,Python,skilled_in
+Maya Mohan,Certified Specialist In Data Science & Analytics,teaches
+Maya Mohan,Essential Skill Program Python Programming,teaches
+Maya Mohan,Certified Specialist In Artificial Intelligence & Machine Learning,teaches
+Maya Mohan,Certified Specialist In Software Testing,teaches
+Maya Mohan,Data Science,skilled_in
+Maya Mohan,Machine Learning,skilled_in
+Maya Mohan,Python,skilled_in
+Mridula Reghunath,Certified Specialist In Data Science & Analytics,teaches
+Mridula Reghunath,Certified Specialist In Sdet,teaches
+Mridula Reghunath,Essential Skill Program Python Programming,teaches
+Mridula Reghunath,Certified Specialist In Full Stack Development (Mern),teaches
+Mridula Reghunath,Certified Specialist In Artificial Intelligence & Machine Learning,teaches
+Mridula Reghunath,Data Science,skilled_in
+Mridula Reghunath,Deep Learning,skilled_in
+Mridula Reghunath,Python,skilled_in
+Mridula Reghunath,Sql,skilled_in
+Remya U.L,Certified Specialist In Data Science & Analytics,teaches
+Remya U.L,Industry Readiness Program Certified Cyber Security Analyst,teaches
+Remya U.L,Certified Specialist In Sdet,teaches
+Remya U.L,Essential Skill Program Python Programming,teaches
+Remya U.L,Certified Specialist In Full Stack Development (Mern),teaches
+Remya U.L,Certified Specialist In Artificial Intelligence & Machine Learning,teaches
+Remya U.L,Essential Skill Program Business Intelligence With Power Bi,teaches
+Remya U.L,Certified Specialist In Software Testing,teaches
+Remya U.L,Industry Readiness Program Certified Specialist In Full Stack Development (Mern),teaches
+Remya U.L,Cloud,skilled_in
+Remya U.L,Data Science,skilled_in
+Remya U.L,Docker,skilled_in
+Remya U.L,Git,skilled_in
+Remya U.L,Github,skilled_in
+Remya U.L,Java,skilled_in
+Remya U.L,Javascript,skilled_in
+Remya U.L,Machine Learning,skilled_in
+Remya U.L,Python,skilled_in
+Remya U.L,Selenium,skilled_in
+Remya U.L,Sql,skilled_in
+Riji N Das,Industry Readiness Program Certified Cyber Security Analyst,teaches
+Riji N Das,Certified Specialist In Sdet,teaches
+Riji N Das,Essential Skill Program Python Programming,teaches
+Riji N Das,Certified Specialist In Full Stack Development (Mern),teaches
+Riji N Das,Essential Skill Program Business Intelligence With Power Bi,teaches
+Riji N Das,Certified Specialist In Software Testing,teaches
+Riji N Das,Git,skilled_in
+Sajil C K,Certified Specialist In Data Science & Analytics,teaches
+Sajil C K,Essential Skill Program Python Programming,teaches
+Sajil C K,Essential Skill Program Business Intelligence With Power Bi,teaches
+Sajil C K,Certified Specialist In Artificial Intelligence & Machine Learning,teaches
+Sajil C K,Certified Specialist In Software Testing,teaches
+Sajil C K,Data Science,skilled_in
+Sajil C K,Machine Learning,skilled_in
+Sajil C K,Power Bi,skilled_in
+Sajil C K,Python,skilled_in
+Tiya Reba Stephen,Certified Specialist In Sdet,teaches
+Tiya Reba Stephen,Certified Specialist In Full Stack Development (Mern),teaches
+Tiya Reba Stephen,Certified Specialist In Software Testing,teaches
+Tiya Reba Stephen,Industry Readiness Program Certified Specialist In Full Stack Development (Mern),teaches
+Tiya Reba Stephen,Azure,skilled_in
+Tiya Reba Stephen,Bootstrap,skilled_in
+Tiya Reba Stephen,Java,skilled_in
+Tiya Reba Stephen,Javascript,skilled_in
+Tiya Reba Stephen,Mongodb,skilled_in
+Tiya Reba Stephen,Node,skilled_in
+Tiya Reba Stephen,React,skilled_in
+Tiya Reba Stephen,Reactjs,skilled_in
+Aarav Krishna,Certified Specialist In Full Stack Development (Mern),enrolled_in
+Ananya Raj,Certified Cyber Security Analyst,enrolled_in
+Diya Manoj,Essential Skill Program – Python Programming,enrolled_in
+Adwaith S,Certified Specialist In Software Testing,enrolled_in
+Joel Mathew,Industry Readiness Program – Data Science,enrolled_in
+Sneha Balan,Certified Specialist In Full Stack Development (Mern),enrolled_in
+Rahul Dev,Certified Cyber Security Analyst,enrolled_in
+Mariya James,Essential Skill Program – Cloud Foundation,enrolled_in
+Abin Thomas,Industry Readiness Program – Ai/Ml,enrolled_in
+Haritha Mk,Certified Specialist In Software Testing,enrolled_in
+Akhil Raj,Certified Specialist In Full Stack Development (Mern),enrolled_in
+Sandra Joseph,Certified Cyber Security Analyst,enrolled_in
+Vishnu S,Essential Skill Program – Python Programming,enrolled_in
+Amala B,Certified Specialist In Software Testing,enrolled_in
+Clara Mathew,Industry Readiness Program – Data Science,enrolled_in
+Nihal Kp,Industry Readiness Program – Ai/Ml,enrolled_in
+Reshma Nair,Essential Skill Program – Cloud Foundation,enrolled_in
+Sachin Manoj,Certified Specialist In Full Stack Development (Mern),enrolled_in
+Alka Susan,Certified Cyber Security Analyst,enrolled_in
+Deepak Lal,Certified Specialist In Software Testing,enrolled_in
+Meera George,Certified Specialist In Full Stack Development (Mern),enrolled_in
+Kevin K Varghese,Industry Readiness Program – Data Science,enrolled_in
+Nayana S,Certified Cyber Security Analyst,enrolled_in
+Anoop Raj,Essential Skill Program – Python Programming,enrolled_in
+Hiba Fathima,Certified Specialist In Software Testing,enrolled_in
+Roshan P P,Industry Readiness Program – Ai/Ml,enrolled_in
+Albin Sunny,Essential Skill Program – Cloud Foundation,enrolled_in
+Kripa Manoj,Certified Specialist In Full Stack Development (Mern),enrolled_in
+Ajesh T,Certified Cyber Security Analyst,enrolled_in
+Neha Liza,Certified Specialist In Software Testing,enrolled_in
+Sarath Surendran,Industry Readiness Program – Data Science,enrolled_in
+Jitha S,Essential Skill Program – Python Programming,enrolled_in
+Varun Dileep,Certified Specialist In Full Stack Development (Mern),enrolled_in
+Anju Mariam,Certified Cyber Security Analyst,enrolled_in
+Joel Babu,Certified Specialist In Software Testing,enrolled_in
+Alphonsa Baby,Industry Readiness Program – Ai/Ml,enrolled_in
+Abhiram R,Essential Skill Program – Cloud Foundation,enrolled_in
+Christy Ann,Certified Specialist In Full Stack Development (Mern),enrolled_in
+Sidharth P,Certified Cyber Security Analyst,enrolled_in
+Lisha Sherin,Industry Readiness Program – Data Science,enrolled_in
+Aarya Menon,Essential Skill Program – Python Programming,enrolled_in
+Nelson Mathew,Certified Specialist In Software Testing,enrolled_in
+Hari Krishnan,Certified Cyber Security Analyst,enrolled_in
+Feba Francis,Industry Readiness Program – Ai/Ml,enrolled_in
+Shilpa Thomas,Certified Specialist In Full Stack Development (Mern),enrolled_in
+Joswin Alex,Essential Skill Program – Cloud Foundation,enrolled_in
+Ameena Khader,Industry Readiness Program – Data Science,enrolled_in
+Saranya R,Certified Specialist In Software Testing,enrolled_in
+Renny George,Certified Cyber Security Analyst,enrolled_in
+Neeraj Lal,Certified Specialist In Full Stack Development (Mern),enrolled_in

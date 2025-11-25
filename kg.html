@@ -1,0 +1,155 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 700px;
+                 background-color: #111111;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": "#6BB6FF", "font": {"color": "white"}, "id": "Software Engineering Fundamentals for Data-Driven Projects ETL vs ELT: Building Robust Data Pipelines using Apache Airflow", "label": "Software Engineering Fundamentals for Data-Driven Projects ETL vs ELT: Building Robust Data Pipelines using Apache Airflow", "shape": "dot"}, {"color": "#FFA500", "font": {"color": "white"}, "id": "Essential Skill Program Python Programming Register Now", "label": "Essential Skill Program Python Programming Register Now", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "and Transformation Prompt Engineering \u0026 GPT-based Language Understanding", "label": "and Transformation Prompt Engineering \u0026 GPT-based Language Understanding", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Module 8 - Capstone Project", "label": "Module 8 - Capstone Project", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Scaling \u0026 Correlation Cloud Fundamentals \u0026 DevOps Practices for Model Deployment", "label": "Scaling \u0026 Correlation Cloud Fundamentals \u0026 DevOps Practices for Model Deployment", "shape": "dot"}, {"color": "#D7A2FF", "font": {"color": "white"}, "id": "Docker", "label": "Docker", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Extraction", "label": "Extraction", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Encoding", "label": "Encoding", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Classification \u0026 Ensemble", "label": "Classification \u0026 Ensemble", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Analysis Capstone Project: End-to-End Development and Deployment", "label": "Analysis Capstone Project: End-to-End Development and Deployment", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Automation DBSCAN", "label": "Automation DBSCAN", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Vectors \u0026 DataFrames Deep Learning", "label": "Vectors \u0026 DataFrames Deep Learning", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Eigenvalues", "label": "Eigenvalues", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Inferential Statistics: Hypothesis Testing with P", "label": "Inferential Statistics: Hypothesis Testing with P", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "OLTP \u0026 Dimensional Modeling", "label": "OLTP \u0026 Dimensional Modeling", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Boosting", "label": "Boosting", "shape": "dot"}, {"color": "#D7A2FF", "font": {"color": "white"}, "id": "Reactjs", "label": "Reactjs", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Eigenvectors \u0026 Techniques", "label": "Eigenvectors \u0026 Techniques", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Techniques Big Data Ecosystem: Hadoop", "label": "Techniques Big Data Ecosystem: Hadoop", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "and F Tests Supervised Learning: Regression", "label": "and F Tests Supervised Learning: Regression", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "AI \u0026 Ethics in AI Data Warehousing Concepts: OLAP", "label": "AI \u0026 Ethics in AI Data Warehousing Concepts: OLAP", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Working with Data Structures: Arrays", "label": "Working with Data Structures: Arrays", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Module 3 - Python Programming and Data Handling", "label": "Module 3 - Python Programming and Data Handling", "shape": "dot"}, {"color": "#FFA500", "font": {"color": "white"}, "id": "Certified Specialist In Data Science \u0026 Analytics Modes About The Program Designed To Equip Learners With Online Offline Industry-Relevant Technology And 6 Months / 375 Hrs", "label": "Certified Specialist In Data Science \u0026 Analytics Modes About The Program Designed To Equip Learners With Online Offline Industry-Relevant Technology And 6 Months / 375 Hrs", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Spark \u0026 Distributed Computing Basics", "label": "Spark \u0026 Distributed Computing Basics", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Module 2 - Introduction to Data Science", "label": "Module 2 - Introduction to Data Science", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Stacking \u0026", "label": "Stacking \u0026", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Large Language Models (LLMs) \u0026 Generative AI", "label": "Large Language Models (LLMs) \u0026 Generative AI", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Tableau \u0026 Data Storytelling", "label": "Tableau \u0026 Data Storytelling", "shape": "dot"}, {"color": "#FFA500", "font": {"color": "white"}, "id": "Certified Specialist In Data Science \u0026 Analytics", "label": "Certified Specialist In Data Science \u0026 Analytics", "shape": "dot"}, {"color": "#FFA500", "font": {"color": "white"}, "id": "Unknown Course", "label": "Unknown Course", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "T", "label": "T", "shape": "dot"}, {"color": "#90EE90", "font": {"color": "white"}, "id": "Sajil C K", "label": "Sajil C K", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Joins", "label": "Joins", "shape": "dot"}, {"color": "#90EE90", "font": {"color": "white"}, "id": "Tiya Reba Stephen", "label": "Tiya Reba Stephen", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Module 7 - Model Deployment Mlops", "label": "Module 7 - Model Deployment Mlops", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Decomposition Model Evaluation", "label": "Decomposition Model Evaluation", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Module 6 - Deep Dive Into Cloud Computing", "label": "Module 6 - Deep Dive Into Cloud Computing", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Procedures Web Development for Data Science: Flask", "label": "Procedures Web Development for Data Science: Flask", "shape": "dot"}, {"color": "#D7A2FF", "font": {"color": "white"}, "id": "Machine Learning", "label": "Machine Learning", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Aggregates \u0026 Stored Dimensionality Reduction: PCA \u0026 Feature Compression Strategies", "label": "Aggregates \u0026 Stored Dimensionality Reduction: PCA \u0026 Feature Compression Strategies", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Data Pre-processing: Cleaning", "label": "Data Pre-processing: Cleaning", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Linear Algebra for ML: Matrices", "label": "Linear Algebra for ML: Matrices", "shape": "dot"}, {"color": "#FFA500", "font": {"color": "white"}, "id": "Certified Specialist In Artificial Intelligence \u0026 Machine Learning Modes About The Program Mastering Ai And Machine Learning Online Offline While Building Real-Time Applications 6 Months / 375 Hrs", "label": "Certified Specialist In Artificial Intelligence \u0026 Machine Learning Modes About The Program Mastering Ai And Machine Learning Online Offline While Building Real-Time Applications 6 Months / 375 Hrs", "shape": "dot"}, {"color": "#FFA500", "font": {"color": "white"}, "id": "Certified Specialist In Data Science \u0026 Analytics Program Offers Comprehensive Technology Training That Is Directly Applicable To Various Industries", "label": "Certified Specialist In Data Science \u0026 Analytics Program Offers Comprehensive Technology Training That Is Directly Applicable To Various Industries", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Series", "label": "Series", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Python Programming Basics for Data Science Data Visualization: Matplotlib", "label": "Python Programming Basics for Data Science Data Visualization: Matplotlib", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Foundations of Data Science", "label": "Foundations of Data Science", "shape": "dot"}, {"color": "#D7A2FF", "font": {"color": "white"}, "id": "power bi", "label": "power bi", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Selection \u0026 Hyperparameter Optimization", "label": "Selection \u0026 Hyperparameter Optimization", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Data Analysis with Python: NumPy and Pandas Essentials Cascading", "label": "Data Analysis with Python: NumPy and Pandas Essentials Cascading", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "SQL for Data Science: Queries", "label": "SQL for Data Science: Queries", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Module 4 - Data Visualisation and EDA", "label": "Module 4 - Data Visualisation and EDA", "shape": "dot"}, {"color": "#FFA500", "font": {"color": "white"}, "id": "Certified Specialist In Software Testing", "label": "Certified Specialist In Software Testing", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "FastAPI \u0026 Streamlit", "label": "FastAPI \u0026 Streamlit", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Hierarchical \u0026", "label": "Hierarchical \u0026", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Feature Engineering: Data Types", "label": "Feature Engineering: Data Types", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Design Thinking for Innovative Problem Solving Data Ingestion Techniques: Batch vs. Streaming Data (Kafka)", "label": "Design Thinking for Innovative Problem Solving Data Ingestion Techniques: Batch vs. Streaming Data (Kafka)", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Module 5 - Supervised and Unsupervised Learning Algorithms", "label": "Module 5 - Supervised and Unsupervised Learning Algorithms", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Z", "label": "Z", "shape": "dot"}, {"color": "#90EE90", "font": {"color": "white"}, "id": "Remya U.L", "label": "Remya U.L", "shape": "dot"}, {"color": "#90EE90", "font": {"color": "white"}, "id": "Gopu Darsan", "label": "Gopu Darsan", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Descriptive Statistics: Central Tendency \u0026 Dispersion Measures Exploratory Data Analysis (EDA) and Visualization Techniques", "label": "Descriptive Statistics: Central Tendency \u0026 Dispersion Measures Exploratory Data Analysis (EDA) and Visualization Techniques", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Seaborn", "label": "Seaborn", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Module 1 - Problem Solving and Design Thinking", "label": "Module 1 - Problem Solving and Design Thinking", "shape": "dot"}, {"color": "#D7A2FF", "font": {"color": "white"}, "id": "Data Science", "label": "Data Science", "shape": "dot"}, {"color": "#FFA500", "font": {"color": "white"}, "id": "Essential Skill Program Business Intelligence With Power Bi Register Now", "label": "Essential Skill Program Business Intelligence With Power Bi Register Now", "shape": "dot"}, {"color": "#D7A2FF", "font": {"color": "white"}, "id": "python", "label": "python", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Probability Concepts: Conditional Probability \u0026 Bayes Theorem Advanced Ensemble Methods: Bagging", "label": "Probability Concepts: Conditional Probability \u0026 Bayes Theorem Advanced Ensemble Methods: Bagging", "shape": "dot"}, {"color": "#6BB6FF", "font": {"color": "white"}, "id": "Data Engineering with Python: Data Pipelines \u0026 Workflow Unsupervised Learning: Clustering with K-Means", "label": "Data Engineering with Python: Data Pipelines \u0026 Workflow Unsupervised Learning: Clustering with K-Means", "shape": "dot"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Design Thinking for Innovative Problem Solving Data Ingestion Techniques: Batch vs. Streaming Data (Kafka)"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Software Engineering Fundamentals for Data-Driven Projects ETL vs ELT: Building Robust Data Pipelines using Apache Airflow"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Foundations of Data Science"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Machine Learning"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "AI \u0026 Ethics in AI Data Warehousing Concepts: OLAP"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "OLTP \u0026 Dimensional Modeling"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Python Programming Basics for Data Science Data Visualization: Matplotlib"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Seaborn"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Tableau \u0026 Data Storytelling"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Descriptive Statistics: Central Tendency \u0026 Dispersion Measures Exploratory Data Analysis (EDA) and Visualization Techniques"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Inferential Statistics: Hypothesis Testing with P"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "T"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Z"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "and F Tests Supervised Learning: Regression"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Classification \u0026 Ensemble"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Linear Algebra for ML: Matrices"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Eigenvalues"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Eigenvectors \u0026 Techniques"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Decomposition Model Evaluation"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Selection \u0026 Hyperparameter Optimization"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Probability Concepts: Conditional Probability \u0026 Bayes Theorem Advanced Ensemble Methods: Bagging"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Boosting"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Stacking \u0026"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Data Analysis with Python: NumPy and Pandas Essentials Cascading"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Data Engineering with Python: Data Pipelines \u0026 Workflow Unsupervised Learning: Clustering with K-Means"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Hierarchical \u0026"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Automation DBSCAN"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "SQL for Data Science: Queries"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Joins"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Aggregates \u0026 Stored Dimensionality Reduction: PCA \u0026 Feature Compression Strategies"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Procedures Web Development for Data Science: Flask"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "FastAPI \u0026 Streamlit"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Working with Data Structures: Arrays"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Series"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Vectors \u0026 DataFrames Deep Learning"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Large Language Models (LLMs) \u0026 Generative AI"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Feature Engineering: Data Types"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Extraction"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "and Transformation Prompt Engineering \u0026 GPT-based Language Understanding"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Techniques Big Data Ecosystem: Hadoop"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Spark \u0026 Distributed Computing Basics"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Data Pre-processing: Cleaning"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Encoding"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Scaling \u0026 Correlation Cloud Fundamentals \u0026 DevOps Practices for Model Deployment"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Analysis Capstone Project: End-to-End Development and Deployment"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Module 1 - Problem Solving and Design Thinking"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Module 2 - Introduction to Data Science"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Module 3 - Python Programming and Data Handling"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Module 4 - Data Visualisation and EDA"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Module 5 - Supervised and Unsupervised Learning Algorithms"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Module 6 - Deep Dive Into Cloud Computing"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Module 7 - Model Deployment Mlops"}, {"arrows": "to", "from": "Certified Specialist In Data Science \u0026 Analytics", "label": "has_module", "to": "Module 8 - Capstone Project"}, {"arrows": "to", "from": "Sajil C K", "label": "teaches", "to": "Certified Specialist In Data Science \u0026 Analytics Modes About The Program Designed To Equip Learners With Online Offline Industry-Relevant Technology And 6 Months / 375 Hrs"}, {"arrows": "to", "from": "Sajil C K", "label": "teaches", "to": "Essential Skill Program Python Programming Register Now"}, {"arrows": "to", "from": "Sajil C K", "label": "teaches", "to": "Certified Specialist In Data Science \u0026 Analytics Program Offers Comprehensive Technology Training That Is Directly Applicable To Various Industries"}, {"arrows": "to", "from": "Sajil C K", "label": "teaches", "to": "Unknown Course"}, {"arrows": "to", "from": "Sajil C K", "label": "teaches", "to": "Essential Skill Program Business Intelligence With Power Bi Register Now"}, {"arrows": "to", "from": "Sajil C K", "label": "teaches", "to": "Certified Specialist In Artificial Intelligence \u0026 Machine Learning Modes About The Program Mastering Ai And Machine Learning Online Offline While Building Real-Time Applications 6 Months / 375 Hrs"}, {"arrows": "to", "from": "Sajil C K", "label": "teaches", "to": "Certified Specialist In Software Testing"}, {"arrows": "to", "from": "Sajil C K", "label": "skilled_in", "to": "Data Science"}, {"arrows": "to", "from": "Sajil C K", "label": "skilled_in", "to": "Machine Learning"}, {"arrows": "to", "from": "Sajil C K", "label": "skilled_in", "to": "power bi"}, {"arrows": "to", "from": "Sajil C K", "label": "skilled_in", "to": "python"}, {"arrows": "to", "from": "Tiya Reba Stephen", "label": "teaches", "to": "Unknown Course"}, {"arrows": "to", "from": "Tiya Reba Stephen", "label": "teaches", "to": "Certified Specialist In Software Testing"}, {"arrows": "to", "from": "Tiya Reba Stephen", "label": "skilled_in", "to": "Reactjs"}, {"arrows": "to", "from": "Remya U.L", "label": "teaches", "to": "Certified Specialist In Data Science \u0026 Analytics Modes About The Program Designed To Equip Learners With Online Offline Industry-Relevant Technology And 6 Months / 375 Hrs"}, {"arrows": "to", "from": "Remya U.L", "label": "teaches", "to": "Essential Skill Program Python Programming Register Now"}, {"arrows": "to", "from": "Remya U.L", "label": "teaches", "to": "Certified Specialist In Data Science \u0026 Analytics Program Offers Comprehensive Technology Training That Is Directly Applicable To Various Industries"}, {"arrows": "to", "from": "Remya U.L", "label": "teaches", "to": "Unknown Course"}, {"arrows": "to", "from": "Remya U.L", "label": "teaches", "to": "Certified Specialist In Artificial Intelligence \u0026 Machine Learning Modes About The Program Mastering Ai And Machine Learning Online Offline While Building Real-Time Applications 6 Months / 375 Hrs"}, {"arrows": "to", "from": "Remya U.L", "label": "teaches", "to": "Essential Skill Program Business Intelligence With Power Bi Register Now"}, {"arrows": "to", "from": "Remya U.L", "label": "teaches", "to": "Certified Specialist In Software Testing"}, {"arrows": "to", "from": "Remya U.L", "label": "skilled_in", "to": "Data Science"}, {"arrows": "to", "from": "Remya U.L", "label": "skilled_in", "to": "Docker"}, {"arrows": "to", "from": "Remya U.L", "label": "skilled_in", "to": "Machine Learning"}, {"arrows": "to", "from": "Gopu Darsan", "label": "teaches", "to": "Certified Specialist In Data Science \u0026 Analytics Modes About The Program Designed To Equip Learners With Online Offline Industry-Relevant Technology And 6 Months / 375 Hrs"}, {"arrows": "to", "from": "Gopu Darsan", "label": "teaches", "to": "Essential Skill Program Python Programming Register Now"}, {"arrows": "to", "from": "Gopu Darsan", "label": "teaches", "to": "Certified Specialist In Data Science \u0026 Analytics Program Offers Comprehensive Technology Training That Is Directly Applicable To Various Industries"}, {"arrows": "to", "from": "Gopu Darsan", "label": "teaches", "to": "Unknown Course"}, {"arrows": "to", "from": "Gopu Darsan", "label": "teaches", "to": "Certified Specialist In Artificial Intelligence \u0026 Machine Learning Modes About The Program Mastering Ai And Machine Learning Online Offline While Building Real-Time Applications 6 Months / 375 Hrs"}, {"arrows": "to", "from": "Gopu Darsan", "label": "teaches", "to": "Essential Skill Program Business Intelligence With Power Bi Register Now"}, {"arrows": "to", "from": "Gopu Darsan", "label": "teaches", "to": "Certified Specialist In Software Testing"}, {"arrows": "to", "from": "Gopu Darsan", "label": "skilled_in", "to": "Docker"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {
+    "configure": {
+        "enabled": false
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": true,
+            "type": "dynamic"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>
